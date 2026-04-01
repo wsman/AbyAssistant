@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Claude Code
 
-# Run and deploy your AI Studio app
+![](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square) [![npm]](https://www.npmjs.com/package/@anthropic-ai/claude-code)
 
-This contains everything you need to run your app locally.
+[npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square
 
-View your app in AI Studio: https://ai.studio/apps/57fcd078-5cff-47db-9294-2e46ee67e303
+Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.
 
-## Run Locally
+**Learn more at [Claude Code Homepage](https://claude.com/product/claude-code)** | [Documentation](https://code.claude.com/docs/en/overview)
 
-**Prerequisites:**  Node.js
+<img src="https://github.com/anthropics/claude-code/blob/main/demo.gif?raw=1" />
 
+## Get started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Install Claude Code:
+
+```sh
+npm install -g @anthropic-ai/claude-code
+```
+
+2. Navigate to your project directory and run `claude`.
+
+## Reporting Bugs
+
+We welcome your feedback. Use the `/bug` command to report issues directly within Claude Code, or file a [GitHub issue](https://github.com/anthropics/claude-code/issues).
+
+## Connect on Discord
+
+Join the [Claude Developers Discord](https://anthropic.com/discord) to connect with other developers using Claude Code. Get help, share feedback, and discuss your projects with the community.
+
+## Data collection, usage, and retention
+
+When you use Claude Code, we collect feedback, which includes usage data (such as code acceptance or rejections), associated conversation data, and user feedback submitted via the `/bug` command.
+
+### How we use your data
+
+See our [data usage policies](https://code.claude.com/docs/en/data-usage).
+
+### Privacy safeguards
+
+We have implemented several safeguards to protect your data, including limited retention periods for sensitive information and restricted access to user session data.
+
+For full details, please review our [Commercial Terms of Service](https://www.anthropic.com/legal/commercial-terms) and [Privacy Policy](https://www.anthropic.com/legal/privacy).
